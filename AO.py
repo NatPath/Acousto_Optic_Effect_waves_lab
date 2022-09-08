@@ -40,7 +40,7 @@ f_err=0 #Hz needs to be assigned with real value
 x_avg = np.array([]) #m
 x_avg_err=1e-3 #[m] needs to be assigned with real value
 
-fig1= plt.figure("figure 1")
+fig1= plt.figure("figure 1",dpi=300)
 plot1 = plt.errorbar(1/f_array,x_avg,x_avg_err,f_err/(f_array**2),"o",label="data")
 
 # regression
@@ -68,7 +68,7 @@ f_err=0 #Hz needs to be assigned with real value
 x_avg = np.array([]) #m
 x_avg_err=1e-3 #[m] needs to be assigned with real value
 
-fig2= plt.figure("figure 2")
+fig2= plt.figure("figure 2",dpi=300)
 plot2 = plt.errorbar(f_array,x_avg,x_avg_err,f_err,"o",label="data")
 
 # regression
