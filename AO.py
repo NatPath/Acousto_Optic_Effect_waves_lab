@@ -5,9 +5,24 @@ import pandas as pd
 from scipy.stats import linregress
 from scipy.optimize import curve_fit as cfit
 
+from skimage.io import imread, imshow
+from skimage.color import rgb2hsv, rgb2gray, rgb2yuv
+from skimage import color, exposure, transform
+from skimage.exposure import equalize_hist
 
 def linear(x,a,b):
     return a*x+b
+
+def fourier_transform_image(image_location):
+    im= imread(image_location)
+    im_grey= rgb2gray(im)
+    plt.figure(num=None,figsize=(8,6),dpi=80)
+    plt.imshow(im_grey,cmap='gray')
+
+    im_grey_fourier = np.fft.fftshift(np.fft.fft2(im_grey))
+    plt.figure(num=None,figsize=(8,6),dpi=80)
+    plt.imshow(np.log(abs(im_grey_fourier)),camp='gray')
+
 #%% 2- Measurments
 #%%1 - 9
 h =62e-3 # [m] height of cell
