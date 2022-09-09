@@ -1,0 +1,2725 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David"
+\font_sans "default" "David"
+\font_typewriter "default" "David"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Title
+מדידת מהירות קול בנוזל אתנול באמצעות מעבר קרן לייזר בתא אקוסטו-אופטי המדמה
+ סריג ובחינת עדשה מרכזת כמבצעת התמרת פוריה
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם: פלג אופק | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+207853029
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+| דוא
+\begin_inset Quotes erd
+\end_inset
+
+ל: 
+\begin_inset Formula $\text{of@campus.technion.ac.il}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם: נתיב מאור | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+319002911
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+| דוא
+\begin_inset Quotes erd
+\end_inset
+
+ל: 
+\begin_inset Formula $\text{nativ.maor@campus.technion.ac.il}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+תקציר
+\end_layout
+
+\begin_layout Standard
+בניסוי זה מטרתנו הייתה למצוא את מהירות הקול בנוזל אתנול.
+ לשם כך הרכבנו מערכת אופטית המשדרת קרן לייזר דרך תא אקוסטו-אופטי המכיל את
+ הנוזל שבו עבור תדירויות מסוימות של ערעור נוצרו גלי קול עומדים מסדרים שונים
+ כך שמעבר אור דרך התא מדמה למעבר אור דרך סריג.
+ מצאנו את מהירות הקול בשתי דרכים.
+ דרך אחת הייתה מדידת המרחקים בין הצמתים של תבנית העקיפה )הנקלטת על ידי מצלמה
+ שהוצבה בשדה הרחוק( כתלות בתדר גל הקול העומד בתא, ממדידות אלה הסקנו את מהירות
+ הקול בנוזל.
+ דרך שניה הייתה מדידת מרחק בין מקסימות פסי האור המתקבלות מהתבנית הסריגית
+ )המתקבלת על ידי הצבה של מצלמה בשדה הקרוב( כתלות בתדר גל הקול גם ממדידות
+ אלה הסקנו את מהירות הקול בנוזל.
+ לבסוף השוונו את ערכי מהירות הקול שנגזרו מהמדידות מול המהירות המקובלת בספרות.
+\begin_inset Newline newline
+\end_inset
+
+נוסף על מדידת מהירות הקול, ביצענו השוואה איכותית בין תמונת הסריג בשדה הקרוב
+ ותמונת תבנית ההתאבכות בשדה הרחוק והתמרות הפוריה שלהן עבור אותו תדר גל קול
+ - זאת על מנת לבחון את היות עדשה מרכזת כמבצעת התמרת פוריה.
+\end_layout
+
+\begin_layout Section*
+מבוא
+\end_layout
+
+\begin_layout Standard
+תדירויות הגל המערער המתאימות ליצירת גלים עומדים בתא האוקסטי הן תדירויות
+ שעבורן גובה התא האוקסטי הוא כפולה שלמה של חצי אורך הגל.
+ עבור ערעורים כאלה נוצרים גלים עומדים בנוזל התא ובכך משתנה צפיפות הנוזל
+ וכך גם מקדם השבירה שלו, כך שמעבר אור דרך התא הוא כמו מעבר אור דרך סריג.
+\end_layout
+
+\begin_layout Standard
+במדידות השדה הקרוב, מוקמה המצלמה מיד לאחר התא האקוסטי )איור 1, המצלמה מוקמה
+ צמוד לתא האקוסטי משמאלו(.
+ במדידות בשדה הרחוק המצלמה מוקמה לאחר עדשה 
+\begin_inset Formula $l_{3}$
+\end_inset
+
+ במרחק המוקד שלה )איור 1, היכן שמצביע החץ "שדה רחוק"(.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename AO_system_figure.png
+	lyxscale 40
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\series bold
+המערכת האופטית בניסוי
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+תרשים המערכת האופטית שבה נערך הניסוי
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+נלקח מתדריך - אקוסטואופטי.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בחלק הראשון של הניסוי, תוך התבוננות בתבנית ההתאבכות בשדה הרחוק, נמדד המרחק
+ הממוצע בין סדרי העקיפה.
+ ממרחק זה חושבה מהירות הקול בעזרת הנוסחא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+v=f\frac{f_{3}\lambda}{\Delta x}\label{eq:v_ff}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כש
+\begin_inset Formula $\Delta x$
+\end_inset
+
+ הוא מרחק בין צמתים או מקסימות ב
+\begin_inset Formula $[m]$
+\end_inset
+
+, 
+\begin_inset Formula $f$
+\end_inset
+
+ תדירות גל הקול ב 
+\begin_inset Formula $[Hz]$
+\end_inset
+
+, 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ אורך גל של הלייזר ב 
+\begin_inset Formula $[m]$
+\end_inset
+
+, 
+\begin_inset Formula $f_{3}$
+\end_inset
+
+ מוקד עדשה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ב
+\begin_inset Formula $[m]$
+\end_inset
+
+ 
+\begin_inset Formula $v$
+\end_inset
+
+ מהירות הקול ב 
+\begin_inset Formula $[\frac{m}{sec}]$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+בחלק השני של הניסוי, תוך התבוננות בתבנית ההתאבכות בשדה הקרוב בתדרים שונים,
+ נמדד המרחק הממוצע בין נקודות הצומת.
+ ממרחק זה חושבה מהירות הקול בעזרת הנוסחה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+v=2\cdot\Delta x\cdot f\label{eq:v_nf}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כש
+\begin_inset Formula $\Delta x$
+\end_inset
+
+ הוא מרחק בין צמתים או מקסימות ב
+\begin_inset Formula $[m]$
+\end_inset
+
+, 
+\begin_inset Formula $f$
+\end_inset
+
+ תדירות גל הקול ב 
+\begin_inset Formula $[Hz]$
+\end_inset
+
+ ו 
+\begin_inset Formula $v$
+\end_inset
+
+ מהירות הקול ב 
+\begin_inset Formula $[\frac{m}{sec}]$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+תוצאות הניסוי
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תחילה, הרכבנו את המערכת האופטית כפי שמוצג באיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ וכיילנו אותה.
+ דאגנו לכך שלאחר כל רכיב )עדשה, תא אקוסטי ומנחת( קרן הלייזר נשארת באותו
+ גובה מעל השולחן ועוברת בקו ישר במרכז הרכיבים כמה שאפשר מבלי לנטות ימינה
+ או שמאלה - על ידי מיקום לוח בעל שנתות מול הלייזר במרחקים שונים ווידוא שהקרן
+ פוגעת תמיד באותה נקודה במיקומים שונים לאורך השולחן.
+ כך שלבסוף לאחר מיקום כל הרכיבים הקרן פגעה במרכז המצלמה כך שהיה ניתן לראות
+ כתם אור במרכז המסך כשהתבוננו בתמונה שהמצלמה מציגה דרך התוכנה אליה היא מחוברת.
+ במיקום העדשות 
+\begin_inset Formula $l_{1}$
+\end_inset
+
+ ו 
+\begin_inset Formula $l_{2}$
+\end_inset
+
+ המתוארות בתרשים וידענו שהמרחק ביניהן הוא 
+\begin_inset Formula $f_{1}+f_{2}$
+\end_inset
+
+ )כש 
+\begin_inset Formula $f_{i}$
+\end_inset
+
+ הוא מוקד העדשה ה
+\begin_inset Formula $i$
+\end_inset
+
+( על ידי כך שהקרן היוצרת מ
+\begin_inset Formula $l_{2}$
+\end_inset
+
+ לא מתבדרת כתלות במרחק ממנה - על ידי מדידת הרדיוס של האלומה בעזרת לוח השנתות.
+ גביש ה
+\begin_inset Formula $PZT$
+\end_inset
+
+ המחובר לתא האקוסטי חובר למחולל התדר שלו רזולוצית קביעת תדר של עד 
+\begin_inset Formula $0.1Hz$
+\end_inset
+
+ אך במהלך השלבים השונים בניסוי שינינו את התדרים ברזולוציות בקפיצות של 
+\begin_inset Formula $10^{2}Hz$
+\end_inset
+
+ וכך נקבעה הערכת השגיאה בתדר.
+ אורך גל קרן הלייזר היה 
+\begin_inset Formula $\lambda=6328A$
+\end_inset
+
+, 
+\begin_inset Formula $f_{1}=35mm$
+\end_inset
+
+ , 
+\begin_inset Formula $f_{2}=300mm$
+\end_inset
+
+ ו 
+\begin_inset Formula $f_{3}=300mm$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לשם ביצוע המדידות בשדה הרחוק, מיקמנו את העדשה 
+\begin_inset Formula $l_{3}$
+\end_inset
+
+ במרחק גדול מ
+\begin_inset Formula $f_{3}$
+\end_inset
+
+ מהתא האוקסטי ואת המצלמה במוקד העדשה שלה כמתואר בתרשים.
+ חיפשנו תדרים עבורם מתקבלת תבנית המזכירה תבנית עקיפה של סדקים.
+ תדרים שבהן הוצגו מספר נקודות אור יחסית בולטות שנחלשות אם מורידים או מעלים
+ את התדר ב
+\numeric on
+100
+\begin_inset Formula $Hz$
+\end_inset
+
+
+\numeric off
+.
+ כדי שתוצג תמונה ברורה שונתה עוצמת הלייזר על ידי המנחת.
+\begin_inset Newline newline
+\end_inset
+
+מצאנו שעבור התדר 
+\begin_inset Formula $f_{FF/NF}=2.3149\pm0.0001[MHz]$
+\end_inset
+
+ התקבלה תמונת ההתאבכות הבאה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/ff_pasted.png
+	lyxscale 70
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\series bold
+תמונת ההתאבכות המתקבלת מתדר של 
+\begin_inset Formula $2.3149[Mhz]$
+\end_inset
+
+ בשדה הרחוק
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+באיור מוצגת תמונת ההתאבכות בשדה הרחוק.
+ ניתן להבחין בנקודות אור בולטות, הנקודה האמצעית היא סדר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $0$
+\end_inset
+
+ של העקיפה וניתן להבחין בעוד שלושה סדרים מימין ומשמאל אליה.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בעזרת תוכנת המצלמה - 
+\begin_inset Formula $ThorCam$
+\end_inset
+
+, הוצב פס מדידה אנכי העובר בנקודות האור כך שיוצג גרף של עוצמת האור בחתך
+ הקו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לכל פיקסל נקבעה עוצמה.
+ לקחנו את מיקומי הפיקסלים בהן התקבל מקסימום מקומי בוהק התואם לנקודת אור
+ משמאל לימין וממדידות אלה חילצנו את המרחק הממוצע בין כל שניים עוקבים בפיקסלים
+ נסמנו ב
+\begin_inset Formula $\Delta p_{avg}$
+\end_inset
+
+.
+ כיוון שההמרה בין פיקסל ליחידות מרחק היא 
+\begin_inset Formula $1px=5.2\mu m$
+\end_inset
+
+ הכפלנו את הערך ב
+\begin_inset Formula $5.2\cdot10^{-6}[m]$
+\end_inset
+
+ כדי לקבל את המרחק הממוצע במטרים, נסמנו ב
+\begin_inset Formula $\Delta x_{avg}=\Delta p\cdot5.2\cdot10^{-6}[m]$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נציין שכדי לקבוע את מיקום נקודות האור בפיקסלים צומצמה עוצמת הלייזר דרך המנחת
+ כך שיוצג מקסימום ברור ואף פיקסל לא היה ברווית עוצמה )מחוץ לסקאלת העוצמה
+ שהמצלמה יכולה להציג לכל פיקסל(.
+ כך שהערכת השגיאה למיקום פיקסל נקבעה בדיוק של 
+\begin_inset Formula $\pm1px$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ביצענו את מדידות אלה עבור 
+\begin_inset Formula $11$
+\end_inset
+
+ תדרים שונים שבהן התקבלה תמונת התאבכות המזכירה תבנית עקיפה של סדקים.
+ נציג את התוצאות של המדידות בגרף הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/ff_graph.png
+	lyxscale 70
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\series bold
+גרף
+\family roman
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+: מרחק ממוצע בין נקודות אור כתלות בתדר המחולל בתמונת ההתאבכות בשדה הרחוק
+\end_layout
+
+\begin_layout Plain Layout
+המדידות מייוצגות כנקודות כחולות עם קווי שגיאה בציר ה
+\begin_inset Formula $y$
+\end_inset
+
+ )קטנים(, וקווי שגיאה בציר ה
+\begin_inset Formula $x$
+\end_inset
+
+ )קטנים מכדי לראותם בגרף(.
+ הקו המקווקו הכתום מייצג את הרגרסיה הלינארית שבוצעה לנתונים:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+y=\left(1.67\pm0.04\right)\cdot10^{-10}x+\left(2.7\pm6.5\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+כאשר תחום השגיאה הוא תחום ה
+\begin_inset Formula $95\%$
+\end_inset
+
+ בר סמך שנלקח מנתוני הרגרסיה.
+ כמו כן התאמת הרגרסיה היא 
+\begin_inset Formula $R^{2}=0.998$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי נוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:v_ff"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ציפינו שיתקיים יחס ישר בין 
+\begin_inset Formula $\Delta x$
+\end_inset
+
+ ל 
+\begin_inset Formula $f$
+\end_inset
+
+, ואכן מהגרף ונתוני הרגרסיה נראה שיש התאמה, הן איכותית והן כמותית.
+ מבחינה איכותית עקום הרגרסיה מוכל בתחומי השגיאה של של הנקודות ומבחינה כמותית
+ ההתאמה היא טובה מאוד עם ערך התאמה של 
+\begin_inset Formula $R^{2}=0.998$
+\end_inset
+
+.
+ נוסף על כך תחום השגיאה של ה
+\begin_inset Formula $intercept$
+\end_inset
+
+ מהרגרסיה מכיל את את הראשית ולכן לא רק שיש התאמה טובה של הנתונים לפונקציה
+ לינארית אלה גם ליחס ישר כפי שציפינו מהתיאוריה.
+ מנוסחא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:v_ff"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ושיפוע המתקבל מהרגרסיה ניתן להסיק שמהירות הקול בנוזל שהתקבלה היא: 
+\begin_inset Formula $v_{FF}=1131.98\pm12.75[\frac{m}{sec}]$
+\end_inset
+
+ )כשהערכת שגיאת המדידה הנגררת חושבה לפי נוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:v_ff_err"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בנספח חישוב שגיאות(.
+ הערך המקובל בספרות למהירות הקול בנוזל אתנול היא 
+\begin_inset Formula $v_{ethenol}=1144[\frac{m}{sec}]$
+\end_inset
+
+, כלומר המהירות התיאורתית מוכלת בטווח השגיאה של המהירות הנגזרת מהמדידות
+ ולכן יש התאמה טובה לתיאוריה.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לשם ביצוע המדידות בשדה הקרוב הסרנו את העדשה 
+\begin_inset Formula $l_{3}$
+\end_inset
+
+ ומיקמנו את המצלמה קרוב ככל הניתן אל הדופן השמאלית )כפי שמוצג באיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+( של התא האקוסטואופטי מבלי שיהיה מגע בין המצלמה לתא.
+ לשם בדיקה של התנהגות איכותית טובה של המערכת רצינו לבדוק האם עבור תדר שבו
+ התקבל גל עומד בחלק הראשון מתקבל גל עומד גם כעת.
+ קבענו את תדר המחולל להיות 
+\begin_inset Formula $f_{FF/NF}=2.3149\pm0.0001[MHz]$
+\end_inset
+
+, אותו תדר שעבורה התקבלה תמונת ההתאבכות המוצגת באיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+התקבלה התמונה הבאה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/NF_23149.tif
+	lyxscale 70
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\series bold
+תמונת ההתאבכות המתקבלת מתדר של 
+\begin_inset Formula $2.3149[Mhz]$
+\end_inset
+
+ בשדה הקרוב
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+באיור מוצגת תמונת ההתאבכות בשדה הקרוב.
+ ניתן להבחין בפסי אור בולטים עם מרווחים שווים ביניהם.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ניתן לראות באיור לעיל שאכן התקבלה תבנית המזכירה סריג, נבדוק האם על סמך מדידה
+ זו בלבד יש התאמה לתיאוריה: 
+\begin_inset Newline newline
+\end_inset
+
+בדומה לנעשה במדידות של השדה הרחוק, קבענו קו אנכי שמודד עוצמה בחתך שלו דרך
+ התוכנה 
+\begin_inset Formula $ThorCam$
+\end_inset
+
+ ולקחנו מדידות של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+13
+\numeric off
+ מיקומי מקסימות מקומיות של עוצמה ומדידות אלה הסקנו את המרחק הממוצע בין מרכזי
+ פסי אור.
+ קיבלנו שהמרחק הממוצע בין פסים עבור התדר 
+\begin_inset Formula $f_{FF/NF}=2.3149[MHz]$
+\end_inset
+
+ הוא 
+\begin_inset Formula $246\pm1[\mu m]$
+\end_inset
+
+ 
+\begin_inset Formula $\Delta x_{avg}=$
+\end_inset
+
+.
+ מנוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:v_nf"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ וממדידה זו 
+\series bold
+בלבד
+\series default
+ ניתן להסיק שמהירות הקול באתנול המתקבלת היא 
+\begin_inset Formula $v_{NF}=1139.46\pm6.68[\frac{m}{sec}]$
+\end_inset
+
+ ומכילה את הערך הצפוי המקובל בספרות בטווח השגיאה שלה.
+\end_layout
+
+\begin_layout Standard
+כמובן שמדידה אחת אינה מספיקה כדי לאושש הצלחה של ניסוי לכן ניסינו לקחת עוד
+ מדידות דומות, אך מצאנו שעבור תדרים אחרים בהן התקבלה תבנית התאבכות ב
+\begin_inset Formula $FF$
+\end_inset
+
+ לא התקבלה תבנית סריגית ב
+\begin_inset Formula $NF$
+\end_inset
+
+, אלה 
+\begin_inset Quotes eld
+\end_inset
+
+תבנית רועשת
+\begin_inset Quotes erd
+\end_inset
+
+ שלא היה ניתן להסיק ממנה מסקנה חד משמעית אודות מרחק בין פסים.
+ לכן נבחרו תדרים אחרים, שבהם לא השתמשנו במדידות בתחום ה
+\begin_inset Formula $FF$
+\end_inset
+
+- נציין שגם עבור מדידות אלה לא הייתה תבנית פסים ברורה מאוד, אך בכל זאת היה
+ ניתן להבחין בפסים עבור תדרים מסוימים.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מדידות אלה מוצגות בגרף הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/nf_graph.png
+	lyxscale 70
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\series bold
+גרף
+\family roman
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+: מרחק ממוצע בין פסי אור כתלות בתדר המחולל בתמונת ההתאבכות בשדה הקרוב
+\end_layout
+
+\begin_layout Plain Layout
+המדידות מייוצגות כנקודות כחולות עם קווי שגיאה בציר ה
+\begin_inset Formula $y$
+\end_inset
+
+ וקווי שגיאה בציר ה
+\begin_inset Formula $x$
+\end_inset
+
+, כשקווי השגיאה בציר ה
+\begin_inset Formula $x$
+\end_inset
+
+ קטנים מכדי להבחין בהם.
+ הקו המקווקו הכתום מייצג את הרגרסיה הלינארית שבוצעה לנתונים:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+y=\left(379.15\pm132.01\right)x+\left(8.11\pm5.61\right)\cdot10^{-5}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+כאשר תחום השגיאה הוא תחום ה
+\begin_inset Formula $95\%$
+\end_inset
+
+ בר סמך שנלקח מנתוני הרגרסיה.
+ כמו כן התאמת הרגרסיה היא 
+\begin_inset Formula $R^{2}=0.868$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מנוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:v_nf"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ניתן היה לצפות שהיחס בין המרחק הממוצע 
+\begin_inset Formula $x$
+\end_inset
+
+ לזמן המחזור 
+\begin_inset Formula $1/f$
+\end_inset
+
+ יהיה יחש ישר, זאת בעוד שלפי המדידות נראה שההתאמה של הנתונים לרגרסיה לינארית
+ היא גרועה עם ערך התאמה 
+\begin_inset Formula $R^{2}=0.868$
+\end_inset
+
+ ונוסף על כך תחום השגיאה של ה
+\begin_inset Formula $intercept$
+\end_inset
+
+ לא מכיל את הראשית.
+ משיפוע הגרף היינו אמורים לפי נוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:v_nf"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ להסיק את מהירות הקול באתנול ולקבל 
+\begin_inset Formula $v_{NF}=758.30\pm132.01[\frac{m}{sec}]$
+\end_inset
+
+ )כשהערכת שגיאת המדידה נקבעה לפי נוסחא בנספח חישוב שגיאות(, ערך שאף על פי
+ תחום השגיאה הרחב שלו לא מכיל את הערך הצפוי מהספרות 
+\begin_inset Formula $v_{ethenol}=1144[\frac{m}{sec}]$
+\end_inset
+
+.
+ על פער זה נדון בהרחבה בדיון ומסקנות.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לבסוף ביצענו השוואה איכותית בין התמרת פוריה של התמונה מהשדה הרחוק )איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+( 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לתמונה מאיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ ובין התמרת פוריה ההפוכה של התמונה מאיור 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לתמונה מאיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כשהתדר הוא 
+\begin_inset Formula $f_{FF/NF}=2.3149[MHz]$
+\end_inset
+
+.
+ זאת על מנת לבדוק האם אכן עדשה עושה התמרת פוריה.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציג את התמרת פוריה של התמונה שהתקבלה מהשדה הרחוק:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/FF_2314_fourier.tif
+	lyxscale 30
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\series bold
+תמונה של התמרת פוריה ההפוכה של התבנית מהשדה הרחוק עבור התדר 
+\begin_inset Formula $2.3149[Mhz]$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+באיור מוצגת התמרת פוריה ההפוכה של התמונה מהשדה הרחוק.
+ ניתן להבחין בתמונה בפסים אופקיים.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ניתן להבחין בתבנית של פסים אופקיים המזכירים את הסריג מתמונת השדה הקרוב באותו
+ התדר.
+ ניתן להבחין גם באליפסות קונצנצטריות סביב מרכז התמונה.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציג את התמרת פוריה של התמונה שהתקבלה מהשדה הקרוב:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/NF_2314_fourier.tif
+	lyxscale 30
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\series bold
+תמונה של התמרת פוריה של התבנית מהשדה הקרוב עבור התדר 
+\begin_inset Formula $2.3149[Mhz]$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+באיור מוצגת התמרת פוריה של התמונה מהשדה הקרוב.
+ ניתן להבחין בתמונה בתבנית המזכירה את תבנית ההתאבכות מהשדה הרחוק.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בתמנה ניתן להבחין בתבנית המזכירה את תבנית ההתאבכות מהשדה הרחוק - כ
+\numeric on
+7
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נקודות אור חזקות במרחקים שווים אחת מהשניה וסביבן עיגולים כמו באיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נראה שישנה התנהגות איכותית כמצופה, התמרת פוריה של התמונה מלפני העדשה דומה
+ לתמונה שאחרי העדשה, והתמרת פוריה ההפוכה של התמונה אחרי העדשה מזכירה את
+ התבנית מהתמונה שלפני העדשה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+דיון בתוצאות
+\end_layout
+
+\begin_layout Standard
+במדידות שנעשו בשדה הרחוק קיבלנו תוצאות התואמות את מצופה מהתיאוריה.
+ מתוצאות המדידה של השדה הרחוק המוצגות בגרף שבאיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ונוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:v_ff"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ציפינו שיתקיים יחס לינארי בין 
+\begin_inset Formula $\Delta x_{avg}$
+\end_inset
+
+ ל 
+\begin_inset Formula $\frac{1}{f}$
+\end_inset
+
+.
+ לפי הרגרסיה הלינארית שהתקבלה מהנתונים נראה שזה אכן מתקיים, שכן ה
+\begin_inset Formula $intercept$
+\end_inset
+
+ המתקבל מהרגרסיה מכיל את הראשית וההתאמה של הנתונים לרגרסיה היא 
+\begin_inset Formula $R^{2}=0.998$
+\end_inset
+
+, התאמה טובה מאוד.
+ ממדידות אלה ונוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:v_ff"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ הסקנו שמהירות הקול באתנול היא 
+\begin_inset Formula $v_{FF}=1131.98\pm12.75[\frac{m}{sec}]$
+\end_inset
+
+ , כך שהערך המקובל בספרות 
+\begin_inset Formula $v_{ethenol}=1144[\frac{m}{sec}]$
+\end_inset
+
+ מוכל בערך שהתקבל מהמדידות כשהשגיאה היחסית בין גודל תחום השגיאה לגודל הנמדד
+ הוא כ
+\numeric on
+1
+\begin_inset Formula $\%$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ סך הכל התאמה טובה של המדידות לתיאוריה.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+במדידות שנעשו בשדה הקרוב קיבלנו שרק עבור תדר אחד התקבל תוצאה התואמת את המצופה
+ מהתיאוריה.
+ מנוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:v_nf"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ומדידות המרחק הממוצע בין סדרי העקיפה עבור התדר 
+\begin_inset Formula $f=2.3149[Mhz]$
+\end_inset
+
+ התקבל ש 
+\begin_inset Formula $v_{NF}=1139.46\pm6.68[\frac{m}{sec}]$
+\end_inset
+
+, והערך המקובל בספרות מוכל בו כשהשגיאה היחסית היא כ
+\begin_inset Formula $0.6\%$
+\end_inset
+
+.
+ כלומר התאמה טובה של המדידה לתיאוריה.
+\end_layout
+
+\begin_layout Standard
+אם זאת, התבקשנו למצוא מספר תדרים בהן ישנה תבנית של גל עומד ולכן נערכו מדידות
+ נוספות עם תדרים נוספים, אך באף אחת מהמדידות לא הייתה מובהקות של גל עומד
+ כמו בתדר שצוין לעיל.
+ בשאר התדרים התקבלה חריגה מהותית מהמצופה מהתיאוריה.
+ מהרגרסיה הלינארית למדידות ונוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:v_nf"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ התקבלה התאמה לא טובה ליחס לינארי ובפרט התאמה לא טובה ליחס ישר עם ערך התאמה
+ 
+\begin_inset Formula $R^{2}=0.868$
+\end_inset
+
+.
+ ממקדם הרגרסיה ונוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:v_nf"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ קיבלנו ש 
+\begin_inset Formula $v_{NF}=758.30\pm132.01[\frac{m}{sec}]$
+\end_inset
+
+, ערך שלא מכיל בתחום השגיאה שלו את הערך התיאורתי ועם שגיאה יחסית בין הגודל
+ המצופה לנמדד של כ 
+\begin_inset Formula $34\%$
+\end_inset
+
+, כלומר התאמה גרועה ביותר בין התיאוריה למתקבל מהמדידות.
+\begin_inset Newline newline
+\end_inset
+
+אנו מניחים שהפער נובע מכך שלא הצלחנו לזהות גלים עומדים מובהקים בתדרים שונים
+ מהתדר 
+\begin_inset Formula $f=2.3149[Mhz]$
+\end_inset
+
+, בשאר התדרים התקבלה תמונה רועשת שהיה ניתן להבחין בה בפסים אך לא באופן מובהק
+ כמו בתדר המדובר.
+ אנו חושדים שהפער הנ
+\begin_inset Quotes erd
+\end_inset
+
+ל אולי נובע מכך שעבור תדרים נמוכים אין היענות טובה של הגביש היוצר את התדרים.
+ חשד זה מתחזק מעצם כך שבתדרים נמוכים מ
+\begin_inset Formula $2MHz$
+\end_inset
+
+ ומעבר יסודי על תדרים )בקפיצות של עשרות הרצים( לא התקבלה תבנית של גל עומד
+ ברת זיהוי.
+ כיוון הערכת השגיאה של חוסר הזיהוי של גל עומד לא משוקללת בחישוב השגיאה הנגררת
+ קיבלנו תוצאה מקולקלת ולכן אין להסתמך עליה.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מהשוואת התמונות של התמרת פוריה של תמונת השדה הקרוב לתמונת השדה נראה שישנה
+ התאמה טובה מבחינה איכותית למצופה, נראה שהעדשה עושה התמרת פוריה.
+ אך אין לנו קריטריון השוואה כמותי למדוד זאת לפיו )לא משלמים לנו מספיק(.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+מסקנות
+\end_layout
+
+\begin_layout Standard
+בחישוב מהירות הקול באתנול דרך מדידת המרחק הממוצע בין סדרי העקיפה בשדה הרחוק,
+ תוצאות הניסוי מתיישבות עם התאוריה.
+ בהתאמה לציפיות, הקשר בין תדר גל הקול לבין המרחק הממוצע בין סדרי העקיפה
+ יצא לינארי 
+\begin_inset Formula $R^{2}=0.999$
+\end_inset
+
+.
+ המהירות התאורטית 
+\begin_inset Formula $v_{th}=1144[\frac{m}{sec}]$
+\end_inset
+
+ נמצאת בטווח השגיאה של המהירות המחושבת 
+\begin_inset Formula $v_{meas}=1131.98\pm12.75[\frac{m}{sec}]$
+\end_inset
+
+.
+ בחישוב מהירות הקול באתנול דרך מדידת המרחק הממוצע בין נקודות צומת, תוצאות
+ הניסוי ברובן אינן תואמות לתאוריה.
+ בניגוד למצופה, הקשר בין תדר גל הקול לבין המרחק הממוצע בין נקודות צומת לא
+ יצא לינארי 
+\begin_inset Formula $R^{2}=0.868$
+\end_inset
+
+.
+ המהירות התאורטית 
+\begin_inset Formula $v_{th}=1144[\frac{m}{sec}]$
+\end_inset
+
+ לא נמצאת בטווח השגיאה של המהירות המחושבת 
+\begin_inset Formula $v_{meas}=758.30\pm132.01[\frac{m}{sec}]$
+\end_inset
+
+.
+ כאשר נעשה שימוש רק במדידה שבה התבנית שהתקבלה הייתה ברורה, המהירות שחושבה
+ 
+\begin_inset Formula $v_{meas}=1139.46\pm6.68[\frac{m}{sec}]$
+\end_inset
+
+ מכילה את המהירות התאורטית בטווח השגיאה שלה.
+ הסבר אפשרי לאי ההתאמה ברוב המדידות הוא בחירה לא טובה של תחום תדרים לביצוע
+ המדידות.
+ במהלך הניסוי ראינו שבתדרים נמוכים התבנית שהתקבלה הייתה פחות ברורה וטושטשת
+ יותר מאשר בתדרים בהם עבדנו, לכן יתכן שהיה ניתן למצוא תדרים בהם התמונה יותר
+ ברורה וכך למדוד בדיוק גבוה יותר את המרחק הממוצע בין נקודות צומת.
+ יתכן שעבור תדרים גבוהים יותר מ 
+\begin_inset Formula $2-3MHz$
+\end_inset
+
+ הייתה מתקבלת תבנית ברורה יותר של גלים עומדים בהתבוננות בשדה הקרוב וגם הרחוק.
+ על מנת לאושש זאת יש לחזור על הניסוי עם תדרים גבוהים יותר ולהשוות בין התוצאות
+ המתקבלות
+\begin_inset Newline newline
+\end_inset
+
+מסקנה נוספת מהניסוי התקבלה מהשוואה בין התמונות באיורים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+והתמרות הפוריה שלהן.
+ נראה שאכן עדשה מבצעת התמרת פוריה, זאת הסקנו מהתבוננות איכותית.
+ על מנת לבדוק את העניין בצורה כמותית יש למצוא דרך לנקות רעשים בתמונה ולבצע
+ סינון מתאים ולאחר מכן למצוא קריטריון השוואה כמותי המשווה בין תמונות שונות
+ וקובע כמה הן זהות.
+ 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+רשימת מקורות
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+( תדריך - אקוסטואופטי
+\end_layout
+
+\begin_layout Section*
+נספח
+\end_layout
+
+\begin_layout Subsection*
+חישובי שגיאות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\delta\Delta x_{avg}(n)=\frac{\sqrt{\sum_{i=1}^{n}(\delta x_{i})^{2}}}{n}\label{eq:dx_err}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הערכת שגיאה בעקבות מיצוע על 
+\begin_inset Formula $n$
+\end_inset
+
+ מדידות שלכל אחת שגיאה 
+\begin_inset Formula $\delta x_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\delta v_{FF}=f_{3}\cdot\lambda_{laser}\cdot\frac{\delta a}{a^{2}}\label{eq:v_ff_err}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כש
+\begin_inset Formula $f_{3}$
+\end_inset
+
+ מוקד עדשה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+, 
+\begin_inset Formula $\lambda_{laser}$
+\end_inset
+
+ אורך גל הלייזר ו 
+\begin_inset Formula $a$
+\end_inset
+
+ שיפוע המתקבל מהרגרסיה המוצגת בגרף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו 
+\begin_inset Formula $\delta a$
+\end_inset
+
+ גודל טווח השגיאה של השיפוע המתקבל מתחום הבר סמך של שיפוע הרגרסיה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\delta v_{NF}=2\cdot\delta a
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כש
+\begin_inset Formula $a$
+\end_inset
+
+ הוא גודל תחום הבר סמך של שיפוע הרגרסיה שהתקבל בגרף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\end_body
+\end_document
